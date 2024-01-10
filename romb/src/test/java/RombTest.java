@@ -31,4 +31,8 @@ public class RombTest {
     public void testCalcArea_Side0_Alpha0(){
         this.romb.calcArea(0.0, 0.0);
     }
+    @Test(expectedExceptions = IllegalArgumentException.class)
+    public void testCalcArea_AlphaMaxValue(){
+        this.romb.calcArea(10.0, 180.0);
+    }
 }
