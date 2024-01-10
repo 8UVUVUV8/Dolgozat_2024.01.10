@@ -1,7 +1,9 @@
 package com.example;
 
 public class Romb {
-    public void calcArea(Double side, Double alpha){
-
+    public Double calcArea(Double side, Double alpha){
+        
+        Double result = 0.0;
+        return result;
     }
 }
