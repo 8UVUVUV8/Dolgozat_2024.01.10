@@ -11,9 +11,9 @@ public class RombTest {
         this.romb = new Romb();
     }
     @Test
-    public void testCalcArea_Side10_Alpha20(){
-        Double result = this.romb.calcArea(10.0,20.0);
-        Double expected = 0.7660;
+    public void testCalcArea_Side10_Alpha90(){
+        Double result = this.romb.calcArea(10.0,90.0);
+        Double expected = 100.0;
         Assert.assertEquals(result, expected, 0.1);
     }
 }
