@@ -11,6 +11,6 @@ public class RombTest {
     }
     @Test
     public void testCalcArea_Side10_Alpha20(){
-        this.romb.calcArea(10,20);
+        this.romb.calcArea(10.0,20.0);
     }
 }
