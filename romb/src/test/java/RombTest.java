@@ -16,4 +16,8 @@ public class RombTest {
         Double expected = 100.0;
         Assert.assertEquals(result, expected, 0.1);
     }
+    @Test(expectedExceptions = IllegalArgumentException.class);
+    public void testCalcArea_Side0_Alpha0(){
+        this.romb.calcArea(0.0, 0.0);
+    }
 }
