@@ -10,7 +10,7 @@ public class RombTest {
         this.romb = new Romb();
     }
     @Test
-    public void testCalc(){
-        this.romb.calcArea();
+    public void testCalcArea_Side10_Alpha20(){
+        this.romb.calcArea(10,20);
     }
 }
